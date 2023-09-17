@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             BottomNavIgationV2Theme {
-
+                MainScreen()
             }
         }
     }
